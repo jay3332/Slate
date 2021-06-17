@@ -10,9 +10,7 @@ with open('README.md', 'r') as file:
 with open('requirements.txt') as file:
     INSTALL_REQUIRES = file.read().splitlines()
 
-with open(os.path.abspath(os.path.join(os.path.dirname(__file__), 'slate/__init__.py'))) as f:
-    VERSION = re.search(r'^__version__\s*(:[^=]*)?=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(2)
-
+VERSION = '1.0.0'
 
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
