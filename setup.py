@@ -10,7 +10,7 @@ with open('README.md', 'r') as file:
 with open('requirements.txt') as file:
     INSTALL_REQUIRES = file.read().splitlines()
 
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
