@@ -54,11 +54,11 @@ setuptools.setup(
     install_requires=INSTALL_REQUIRES,
     license='MIT',
     name='Slate',
-    packages=['slate', 'slate.andesite', 'slate.lavalink', 'slate.objects'],
     project_urls=PROJECT_URLS,
     python_requires=">=3.8",
-    url='https://github.com/Axelancerr/Slate',
+    url='https://github.com/jay3332/Slate',
     version=VERSION,
+    packages=setuptools.find_packages(),
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
 )
